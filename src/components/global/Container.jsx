@@ -1,6 +1,8 @@
 const Container = ({children}) => {
     return <>
-        {children}
+        <div className="border w-screen h-dvh bg-xp">
+            {children}
+        </div>
     </>
 }
 
